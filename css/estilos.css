@@ -1,0 +1,96 @@
+/* General */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CBC3E3;
+}
+
+/* header */
+header{
+    color: white;
+    padding: 50px 20px;
+    margin: 0;
+    border-bottom: 10px solid purple;
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    background-color: #2e2e2e;
+    padding: 15px;
+}
+
+.nave {
+    list-style: none;        
+    margin: 0;               
+    padding: 0;              
+    display: flex;           
+    gap: 30px;             
+}
+
+.naveg {
+    text-decoration: none;   
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Posts */
+.post-header img {
+    border: 5px solid #2e2e2e;
+    margin-bottom: 20px;
+}
+
+.post-body p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Tablas */
+.precio, .imge {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+}
+
+.precio th, .precio td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    padding: 50px 20px;
+    margin: 0;
+    border-top: 10px solid purple;
+    text-align: center;
+    background-color: #CBC3E3;
+}
+
+.footer h4 {
+    margin-bottom: 30px;
+}
+
+/* Botón de Suscríbeme */
+.submitbutton {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
